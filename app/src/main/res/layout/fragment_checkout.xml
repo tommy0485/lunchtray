@@ -142,8 +142,7 @@
                 tools:text="Total: $10.73"
                 android:text="@{@string/total(viewModel.total)}" />
 
-            <!-- TODO: submit the order when clicked
-             android:onClick="@{() -> checkoutFragment.submitOrder()}"-->
+            <!-- TODO: submit the order when clicked -->
             <Button
                 android:id="@+id/submit_button"
                 android:layout_width="match_parent"

@@ -183,17 +183,6 @@
 
             <!-- TODO: set the text to the current subtotal value from the view model -->
 
-            <!--<TextView
-                android:id="@+id/subtotal"
-                style="Widget.LunchTray.TextView.Subtotal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/side_margin"
-                android:text="@{@string/subtotal(viewModel.subtotal)}"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/divider"
-                tools:text="Subtotal $5.00" />-->
-
             <TextView
                 android:id="@+id/subtotal"
                 style="@style/Widget.LunchTray.TextView.Subtotal"
