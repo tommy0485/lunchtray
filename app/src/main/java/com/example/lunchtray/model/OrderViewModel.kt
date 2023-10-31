@@ -17,10 +17,8 @@ package com.example.lunchtray.model
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-//import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.map
-import com.example.lunchtray.constants.ItemType.ENTREE
 import com.example.lunchtray.data.DataSource
 import java.text.NumberFormat
 
@@ -121,7 +119,6 @@ class OrderViewModel : ViewModel() {
             // TODO: set the current side value to the menu item corresponding to the passed in string
 
             updateSubtotal(_side.value!!.price)
-            //updateSubtotal(menuItems[side]?.price ?: 0.0)
 
             // TODO: update the subtotal to reflect the price of the selected side.
         }
